@@ -4,7 +4,7 @@ module Servlao
       attr_writer :base_uri
 
       def base_uri
-        @base_uri || fail(Servlao::Errors::MissingConfiguration, 'base_uri')
+        @base_uri || fail(Servlao::Errors::ConfigurationMissing, 'base_uri')
       end
     end
   end
