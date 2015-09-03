@@ -1,7 +1,7 @@
 require 'servlao/base/config'
 
 module Servlao
-  class Base
+  module Base
     include Base::Config
   end
 end

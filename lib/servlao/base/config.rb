@@ -1,5 +1,5 @@
 module Servlao
-  class Base
+  module Base
     module Config
       attr_writer :base_uri
 
