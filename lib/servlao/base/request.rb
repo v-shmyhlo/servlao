@@ -1,7 +1,7 @@
 module Servlao
   module Base
     module Request
-      %i(get, post, put, patch, delete).each do |m|
+      %i(get post put patch delete).each do |m|
         define_method m do |uri, **opts, &block|
           opts[:method] = m
           request_for(uri, opts, &block)
