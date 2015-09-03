@@ -21,13 +21,17 @@ Gem::Specification.new do |s|
   s.files = [
     '.document',
     '.rspec',
+    '.ruby-gemset',
+    '.ruby-version',
     'Gemfile',
+    'Gemfile.lock',
     'LICENSE.txt',
     'README.rdoc',
     'Rakefile',
     'lib/servlao.rb',
     'lib/servlao/base.rb',
     'lib/servlao/version.rb',
+    'servlao.gemspec',
     'spec/servlao_spec.rb',
     'spec/spec_helper.rb'
   ]
